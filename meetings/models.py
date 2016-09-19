@@ -1,5 +1,4 @@
 #   meetings/models.py
-#   Models for the Meetings App
 #   Patrick W. Montgomery
 #   created: 9/19/2016
 

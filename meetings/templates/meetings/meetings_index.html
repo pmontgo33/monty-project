@@ -1,0 +1,14 @@
+{% load staticfiles %}
+
+<div>
+    <h1><a href="/">Meeting Minutes</a></h1>
+</div>
+
+{% for min in meeting_minutes %}
+    <div>
+        <h2><a href="">{{min.title}}</a></h2>
+        <p>Meeting Date: {{min.meeting_date}}</p>
+        <p>Distribution: {{min.distribution}}</p>
+    </div>
+    
+{% endfor %}
